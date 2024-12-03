@@ -19,7 +19,7 @@ class Poem{
         posY=200;
         String lines[]=loadStrings(filename);
         numLines=lines.length;
-        co=color(random(0,255),random(0,255),random(0,255));
+        co=color(0,0,0);
         speed=random(10,20);
         poem = new ArrayList();
         for(int i=0;i<numLines;i++){
